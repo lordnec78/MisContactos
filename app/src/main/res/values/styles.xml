@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+    </style>
+
+
+
+    <!--Etiqutas!-->
+    <style name="AppTheme.FloatingLabel" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorverdeazul</item>
+        <item name="android:textSize">@dimen/Etiquetas</item>
+    </style>
+
+    <!--Campo de texto-->
+    <style name="EditText" parent="AppTheme">
+        <!-- cursor y línea normal-->
+        <item name="colorControlNormal">@color/colorver</item>
+        <!-- cursor y línea con foco-->
+        <item name="colorControlActivated">@color/colorverdeazul</item>
+    </style>
+
+    <style name="BotonRaised" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/colorAccent </item>
+        <item name="colorControlHighlight">@color/colorBlanco</item>
+        <item name="android:textColor">@color/colorBlanco</item>
+    </style>
+
+
+
+</resources>
